@@ -25,6 +25,7 @@ exports[`Main snapshot renders 1`] = `
           <input
             className="form-control"
             id="loan-size"
+            min="0"
             onChange={[Function]}
             placeholder="Loan Size"
             required={true}

@@ -32,6 +32,7 @@ const CustomerForm = ({handleSubmit}) => {
 							required
 							type="number"
 							placeholder="Loan Size"
+							min="0"
 							onChange={(e) => setLoanSize(e.target.value)}
 						/>
 					</Form.Group>
