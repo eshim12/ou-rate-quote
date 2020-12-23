@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuotesTable Snapshot renders with data in table 1`] = `
+<div>
+  <table
+    className="table table-bordered"
+  >
+    <thead>
+      <tr>
+        <th>
+          Lender
+        </th>
+        <th>
+          Product
+        </th>
+        <th>
+          Rate
+        </th>
+        <th>
+          Closing Costs
+        </th>
+        <th>
+          Monthly Payment
+        </th>
+        <th>
+          APR
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>
+          Lender
+        </th>
+        <th>
+          type
+        </th>
+        <th>
+          12.01
+        </th>
+        <th>
+          2.01
+        </th>
+        <th>
+          12
+        </th>
+        <th>
+          11.01
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`QuotesTable Snapshot renders with spinner 1`] = `
+<div>
+  <table
+    className="table table-bordered"
+  >
+    <thead>
+      <tr>
+        <th>
+          Lender
+        </th>
+        <th>
+          Product
+        </th>
+        <th>
+          Rate
+        </th>
+        <th>
+          Closing Costs
+        </th>
+        <th>
+          Monthly Payment
+        </th>
+        <th>
+          APR
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+  <div
+    className="spinner-border"
+  />
+</div>
+`;
+
+exports[`QuotesTable snapshot renders 1`] = `
+<div>
+  <table
+    className="table table-bordered"
+  >
+    <thead>
+      <tr>
+        <th>
+          Lender
+        </th>
+        <th>
+          Product
+        </th>
+        <th>
+          Rate
+        </th>
+        <th>
+          Closing Costs
+        </th>
+        <th>
+          Monthly Payment
+        </th>
+        <th>
+          APR
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+  <h3>
+    No quotes available
+  </h3>
+</div>
+`;
