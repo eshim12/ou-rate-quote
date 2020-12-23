@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main snapshot renders 1`] = `
+<div>
+  <h1>
+    Rate Quote
+  </h1>
+  <div>
+    <form
+      className=""
+      onSubmit={[Function]}
+    >
+      <div
+        className="form-row"
+      >
+        <div
+          className="form-group col"
+        >
+          <label
+            className="form-label"
+            htmlFor="loan-size"
+          >
+            Loan Size
+          </label>
+          <input
+            className="form-control"
+            id="loan-size"
+            onChange={[Function]}
+            placeholder="Loan Size"
+            required={true}
+            type="number"
+          />
+        </div>
+        <div
+          className="form-group col"
+        >
+          <label
+            className="form-label"
+            htmlFor="property-type"
+          >
+            Property Type
+          </label>
+          <select
+            className="form-control"
+            id="property-type"
+            onChange={[Function]}
+            required={true}
+          >
+            <option />
+            <option
+              value="SingleFamily"
+            >
+              Single Family
+            </option>
+            <option
+              value="Condo"
+            >
+              Condo
+            </option>
+            <option
+              value="Townhouse"
+            >
+              Townhouse
+            </option>
+            <option
+              value="MultiFamily"
+            >
+              Multi-Family
+            </option>
+          </select>
+        </div>
+      </div>
+      <div
+        className="form-row"
+      >
+        <div
+          className="form-group col"
+        >
+          <label
+            className="form-label"
+            htmlFor="credit-score"
+          >
+            Credit Score
+          </label>
+          <input
+            className="form-control"
+            id="credit-score"
+            max="850"
+            min="300"
+            onChange={[Function]}
+            placeholder="Credit Score"
+            required={true}
+            type="number"
+          />
+        </div>
+        <div
+          className="form-group col"
+        >
+          <label
+            className="form-label"
+            htmlFor="occupancy"
+          >
+            Occupancy
+          </label>
+          <select
+            className="form-control"
+            id="occupancy"
+            onChange={[Function]}
+            required={true}
+          >
+            <option />
+            <option
+              value="Primary"
+            >
+              Primary
+            </option>
+            <option
+              value="Secondary"
+            >
+              Secondary
+            </option>
+            <option
+              value="Investment"
+            >
+              Investment
+            </option>
+          </select>
+        </div>
+      </div>
+      <button
+        className="btn btn-outline-primary"
+        disabled={false}
+        type="submit"
+      >
+        Quote Rates
+      </button>
+    </form>
+  </div>
+  <br />
+  <QuotesTable />
+</div>
+`;
