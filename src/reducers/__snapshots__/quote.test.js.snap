@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`quote reducer it should return initial state 1`] = `Object {}`;
+
+exports[`quote reducer should handle failed quotes request 1`] = `
+Object {
+  "data": Array [],
+  "error": "fetch failed",
+  "failed": true,
+  "loading": false,
+}
+`;
+
+exports[`quote reducer should handle quotes request 1`] = `
+Object {
+  "data": Array [],
+  "error": null,
+  "failed": false,
+  "loading": true,
+}
+`;
+
+exports[`quote reducer should handle successful quotes request 1`] = `
+Object {
+  "data": undefined,
+  "error": null,
+  "failed": false,
+  "loading": false,
+}
+`;
