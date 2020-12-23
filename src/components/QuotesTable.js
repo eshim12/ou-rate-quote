@@ -29,7 +29,7 @@ const QuotesTable = ({quotes, loading}) => (
 			</tbody>
 		</Table>
 		{loading && (<Spinner animation="border" />)}
-		{!loading && quotes.length == 0 &&(<h3>No quotes available</h3>)}
+		{!loading && quotes.length === 0 &&(<h3>No quotes available</h3>)}
 	</div>
 )
 

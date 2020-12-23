@@ -1,3 +1,22 @@
+# Rate Quote App
+
+## To launch App
+In the project directory, run:
+### `npm start`
+
+## To test App
+run:
+### `npm test`
+
+## About the application
+
+### File structure
+I chose to approach the structure of this project by organizing files by file type. If the project were bigger and I would be adding new features to it, I would have chosen a structure that is organized by feature or route because as a project grows, instead of having to insert a file by each type and have a long list of files (eg. component, container, action, reducer, api) I can create one folder for the feature and include all the relevant files there, which also makes it more readable.
+
+### Other libraries
+For testing, I chose Jest.
+For styling, since there was no specified styling guideline, I included react bootstrap to take advantage of styled components it offers. Down the line if the project had more direction on style, I can also add custom styling to override bootstrap's styling.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

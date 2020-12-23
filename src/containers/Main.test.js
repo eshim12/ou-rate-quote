@@ -3,6 +3,7 @@ import { Provider } from 'react-redux'
 import { shallow } from 'enzyme';
 import configureMockStore from 'redux-mock-store';
 import renderer from 'react-test-renderer';
+
 import Main from './Main';
 import { getQuotes } from '../actions/quoteActions'
 

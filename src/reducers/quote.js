@@ -15,7 +15,6 @@ export default (state={}, {payload, type}) => {
 			}
 
 		case GET_QUOTES_SUCCEEDED:
-			// debugger
 			return {
 				loading: false,
 				failed: false,
@@ -24,7 +23,6 @@ export default (state={}, {payload, type}) => {
 			}
 
 		case GET_QUOTES_FAILED:
-			// debugger
 			return {
 				loading: false,
 				failed: true,
